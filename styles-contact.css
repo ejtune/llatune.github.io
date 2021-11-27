@@ -60,26 +60,28 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/background.jpg)
 		center center fixed no-repeat;
 	background-size: cover;
-	
-	
+	font-family: didot, serif;
 }
 
 .center {
-    width: 800px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    width: 80%; /*added this to make div responsive */
+	max-width: 800px;
+	padding: 5%;
+    margin: 50px auto;
+	border-radius: 10px 10px; 
 	text-align: center;
-	border: 4px dashed white;
+ 	background: rgb(255, 255, 230, 40%); /*this uses opacity for the background color*/
+	/* removed -- boarder: 4px dashed white;
+	*/
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -87,14 +89,14 @@ h1 {
 	font-family: didot, serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: black;
 }
 
 h2 {
 	font-family: didot, serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color: black;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -103,18 +105,14 @@ p {
 	font-family: didot, serif;		
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: black;
 }
     
  nav{
-	 font-family: didot;
-	 font-size: 1.2em;
-	 width: 400px;
+	 width: 80%;
 	 margin: 0 auto;
-	 border: dashed turquoise;
-	 border-width: 3px 0;
-	 text-align: center;
-	 margin-top: 2em;
+	 padding: 20px 0;
+	 font-family: didot, serif;
  }   
 
  nav li{
@@ -127,11 +125,10 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:black;
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
-	color:black;
-	background:pink;
+	color:white;
 	}
