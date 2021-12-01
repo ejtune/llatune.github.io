@@ -51,8 +51,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 /* ---------- Hello, my name is Ella Tune and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing November 2021 ------------ */
 
 html, body {
@@ -70,49 +68,62 @@ html, body {
     width: 80%; /*added this to make div responsive */
 	max-width: 800px;
 	padding: 5%;
-    margin: 50px auto;
-	border-radius: 10px 10px; 
+    margin: 130px auto;
+	border-radius: 100px, 100px; 
 	text-align: center;
- 	background: rgb(255, 255, 230, 40%); /*this uses opacity for the background color*/
+ 	background: rgba(0, 0, 0, 0.5); /*this uses opacity for the background color*/
 	/* removed -- boarder: 4px dashed white;
 	*/
 }
 
-   
 #logo {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 	margin-top: 40px;
 	text-align: center;
 }
 
 h1 {
-	font-family: didot, serif;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: black;
+	font-family: "Libre Baskerville", serif;
+	font-size: 1.5em;
+    margin: 10px auto 20px auto;
+    color: rgb(250, 249, 249);
 }
 
 h2 {
-	font-family: didot, serif;
+	font-family: "Libre Baskerville", serif;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: black;
-    padding: 0px 0px;
+    color: rgb(255, 255, 255);
+    padding: 10px, 10px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: didot, serif;		
+	font-family: "Libre Baskerville", serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    color: rgb(255, 255, 255);
 }
     
  nav{
-	 width: 80%;
-	 margin: 0 auto;
-	 padding: 20px 0;
-	 font-family: didot, serif;
+	 width: 500%;
+	 margin: 100 auto;
+	 padding: 50px, 0;
+	 font-family: "Libre Baskerville", serif;
+	 padding: 200px;
+	 border-top: solid white;
+	 border-width: .5px, 0;
+	 border-bottom: solid white;
+	 border-width: .5px, 0;
+	 width: 100%; /*added this to make div responsive */
+	 max-width: 800px;
+	 padding: 2%;
+	 margin: 10px auto;
+	 border-radius: 15px 15px;
+	 text-align: center;
+	 background: rgba(253, 253, 253, 0.6); /*this uses opacity for the background color*/
  }   
 
  nav li{
@@ -121,14 +132,14 @@ p {
 
 nav a{
 	display:inline-block;
-	padding: 10px;
 	}
 
 a{
-	color:black;
+	color:rgb(255, 255, 255);
 	text-decoration: none;
 	font-weight: bold;
+	width: 30%;
 	}
 a:hover{
-	color:white;
+	color:black;
 	}
