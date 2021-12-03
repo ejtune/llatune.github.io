@@ -56,8 +56,8 @@ table {
 html, body {
   height: 100%;
   width: 100%;
-  padding: 0;
-  margin: 0;
+  padding: 5px;
+  margin: 5px;
   background: url(images/background.jpg)
 		center center fixed no-repeat;
 	background-size: cover;
@@ -67,9 +67,9 @@ html, body {
 .center {
     width: 80%; /*added this to make div responsive */
 	max-width: 800px;
-	padding: 5%;
+	padding: 10px;
     margin: 130px auto;
-	border-radius: 100px, 100px; 
+	border-radius: 20px, 20px; 
 	text-align: center;
  	background: rgba(0, 0, 0, 0.5); /*this uses opacity for the background color*/
 	/* removed -- boarder: 4px dashed white;
@@ -85,7 +85,7 @@ html, body {
 h1 {
 	font-family: "Libre Baskerville", serif;
 	font-size: 1.5em;
-    margin: 10px auto 20px auto;
+    margin: 10px auto 10px auto;
     color: rgb(250, 249, 249);
 }
 
@@ -102,26 +102,23 @@ p {
 	font-family: "Libre Baskerville", serif;
 	font-size: 1.2em;
     line-height: 1.6;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 0px;
     color: rgb(255, 255, 255);
 }
     
  nav{
-	 width: 500%;
-	 margin: 100 auto;
-	 padding: 50px, 0;
+	 width: 100%;
+	 margin: 25px auto;
 	 font-family: "Libre Baskerville", serif;
-	 padding: 200px;
 	 border-top: solid white;
-	 border-width: .5px, 0;
+	 border-width: 3px;
 	 border-bottom: solid white;
-	 border-width: .5px, 0;
-	 width: 100%; /*added this to make div responsive */
-	 max-width: 800px;
-	 padding: 2%;
-	 margin: 10px auto;
+	 border-width: 3px;
+	 max-width: 500px;
 	 border-radius: 15px 15px;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
 	 text-align: center;
 	 background: rgba(253, 253, 253, 0.6); /*this uses opacity for the background color*/
  }   
@@ -136,6 +133,8 @@ nav a{
 
 a{
 	color:rgb(255, 255, 255);
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-decoration: none;
 	font-weight: bold;
 	width: 30%;
