@@ -51,70 +51,77 @@ table {
 	border-spacing: 0;
 }
 
-
-
 /* ---------- Hello, my name is Ella Tune and this is the beginning of my CONTACT PAGE CSS for 201 Digital Publishing November 2021 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
-  padding: 0;
-  margin: 0;
-  background: url(images/bricks_bg.jpg)
+  padding: 5px;
+  margin: 5px;
+  background: url(images/background.jpg)
 		center center fixed no-repeat;
 	background-size: cover;
-	
-	
+	font-family: didot, serif;
 }
 
 .center {
-    width: 800px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    width: 80%; /*added this to make div responsive */
+	max-width: 800px;
+	padding: 30px;
+    margin: 150px auto;
+	border-radius: 20px, 20px; 
 	text-align: center;
-	border: 4px dashed white;
+ 	background: rgba(0, 0, 0, 0.5); /*this uses opacity for the background color*/
+	/* removed -- boarder: 4px dashed white;
+	*/
 }
 
-   
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+	width: 70%; /*added this to make div responsive */
+    margin-bottom: 20px;
+	margin-top: 40px;
 	text-align: center;
 }
 
 h1 {
-	font-family: didot, serif;
-	font-size: 2em;
-    margin: 0px auto 10px auto;
-    color: #fff;
+	font-family: optima; 
+	font-size: 1.5em;
+    margin: 0px auto;
+    color: rgb(250, 249, 249);
 }
 
 h2 {
-	font-family: didot, serif;
+	font-family: optima;
 	font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
+    color: rgb(255, 255, 255);
+    padding: 10px, 10px;
     margin: 0px auto 25px auto;
 }
 
 p {
-	font-family: didot, serif;		
+	font-family: optima;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+	padding-top: 20px;
+	padding-bottom: 0px;
+    color: rgb(255, 255, 255);
 }
     
  nav{
-	 font-family: didot;
-	 font-size: 1.2em;
-	 width: 400px;
-	 margin: 0 auto;
-	 border: dashed turquoise;
-	 border-width: 3px 0;
+	 width: 100%;
+	 margin: 25px auto;
+	 font-family: optima;
+	 border-top: solid white;
+	 border-width: 3px;
+	 border-bottom: solid white;
+	 border-width: 3px;
+	 max-width: 500px;
+	 border-radius: 15px 15px;
+	 padding-top: 0px;
+	 padding-bottom: 0px;
 	 text-align: center;
-	 margin-top: 2em;
+	 background: rgba(253, 253, 253, 0.6); /*this uses opacity for the background color*/
  }   
 
  nav li{
@@ -123,15 +130,16 @@ p {
 
 nav a{
 	display:inline-block;
-	padding: 10px;
 	}
 
 a{
-	color:#444;
+	color:rgb(255, 255, 255);
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-decoration: none;
 	font-weight: bold;
+	width: 30%;
 	}
 a:hover{
 	color:black;
-	background:pink;
 	}
